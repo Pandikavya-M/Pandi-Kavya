@@ -1,0 +1,18 @@
+Question:
+Write a program to generate the following series – 6, 9, 14, 21, 30….
+
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+     int n,x,sum=5;
+     cin>>n;
+     for(int i=1;i<=n;i++)
+     {
+         x=(2*i-1);
+         sum+=x;
+         cout<<sum<<" ";
+     }
+        return 0;
+}
